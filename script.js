@@ -65,5 +65,6 @@ const cookie = document.querySelector(".cookie-overlay");
 const cookiecheck = document.querySelector(".cookie-check");
 
 cookiecheck.addEventListener("click", function (e) {
+  e.preventDefault();
   cookie.style.display = "none";
 });
